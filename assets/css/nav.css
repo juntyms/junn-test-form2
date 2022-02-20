@@ -1,0 +1,117 @@
+nav {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: none;
+  flex-wrap: wrap;
+  align-content: center;
+  text-transform: uppercase;
+}
+nav h2 {
+  font-size: 2.3em;
+  text-align: right;
+}
+nav ul {
+  list-style: none;
+}
+.dividerVertical {
+  height: 300px;
+  width: 6px;
+  background-color: var(--dark);
+}
+.navwords {
+  margin-bottom: 0;
+  padding-right: 30px;
+  margin-left: 14px;
+}
+.BuyButton a {
+  text-decoration: none !important;
+  color: var(--dark);
+}
+.BuyButton {
+  margin-left: 30px;
+}
+.BuyButton a:hover {
+  text-shadow: 2px 1px 40px rgba(0, 0, 0, 0.5);
+  opacity: 0.8;
+  transition: all 0.3s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+  -webkit-animation: fadeDown 0.5s forwards;
+  animation: fadeDown 0.5s forwards;
+}
+nav ul a {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: none;
+  line-height: 2;
+  letter-spacing: 1pt;
+  font-size: 2em;
+  color: #09203f;
+  -webkit-animation: fadeDown 0.5s forwards;
+  animation: fadeDown 0.5s forwards;
+  opacity: 0;
+  cursor: pointer;
+  transform: translateY(-20px);
+  transition: all 0.3s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+  margin-right: 14px;
+}
+nav ul a:hover {
+  text-shadow: 2px 1px 40px rgba(0, 0, 0, 0.5);
+  opacity: 0.8;
+}
+nav ul a:nth-child(1) {
+  -webkit-animation-delay: 0.8s;
+  animation-delay: 0.8s;
+}
+nav ul a:nth-child(2) {
+  -webkit-animation-delay: 0.9s;
+  animation-delay: 0.9s;
+}
+nav ul a:nth-child(3) {
+  -webkit-animation-delay: 1s;
+  animation-delay: 1s;
+}
+nav ul a:nth-child(4) {
+  -webkit-animation-delay: 1.3s;
+  animation-delay: 1.3s;
+}
+nav #nav-close {
+  position: fixed;
+  top: 40px;
+  right: 40px;
+  font-size: 1.5em;
+  cursor: pointer;
+  -webkit-animation: fadeDown 0.5s forwards;
+  animation: fadeDown 0.5s forwards;
+  -webkit-animation-delay: 1.1s;
+  animation-delay: 1.1s;
+  opacity: 0;
+  color: #09203f;
+  transform: translateY(-20px);
+}
+@-webkit-keyframes fadeDown {
+  0% {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@keyframes fadeDown {
+  0% {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+/**END OF NAVIGATION**/

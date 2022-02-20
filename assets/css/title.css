@@ -1,0 +1,119 @@
+/**title**/
+.title {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  text-align: center;
+  text-transform: uppercase;
+}
+.title h1 {
+  font-size: 4rem;
+  -webkit-text-stroke: 2px whitesmoke;
+  color: transparent;
+  margin-right: 2%;
+  margin-left: 2%;
+}
+.lines {
+  background: whitesmoke;
+  width: 495px;
+  height: 6px;
+}
+.Buylines {
+  background: whitesmoke;
+  width: 475px;
+  height: 6px;
+}
+/**end of title**/
+
+/**small title**/
+
+.smalltitle {
+  align-items: center;
+  justify-content: left;
+  display: flex;
+  text-align: left;
+  text-transform: uppercase;
+}
+.smalltitle h1 {
+  font-size: 2rem;
+  color: whitesmoke;
+  margin-right: 2%;
+}
+.smalltitle span {
+  color: #eea300;
+}
+.smalllines {
+  background: whitesmoke;
+  width: 100%;
+  height: 3px;
+  overflow: hidden;
+}
+/**end of small title**/
+
+/**whole small title**/
+
+.wholesmalltitle {
+  align-items: center;
+  justify-content: left;
+  display: flex;
+  text-align: left;
+  text-transform: uppercase;
+}
+.wholesmalltitle h1 {
+  font-size: 3rem;
+  color: whitesmoke;
+  margin-right: 2%;
+  letter-spacing: 1pt;
+}
+.wholesmalltitle span {
+  color: #eea300;
+}
+.wholesmalllines {
+  background: whitesmoke;
+  width: 61%;
+  height: 4.5px;
+  overflow: hidden;
+}
+.blue h1 {
+  letter-spacing: 1pt;
+}
+.blue h1 span {
+  color: #eea300;
+}
+/**end of small title**/
+
+/**whole long title**/
+
+.wholelonglines {
+  background: whitesmoke;
+  width: 79%;
+  height: 4.5px;
+  overflow: hidden;
+}
+
+/**end of whole long title**/
+
+/**whole long title**/
+
+.LEFTwholelonglines {
+  background: whitesmoke;
+  width: 74%;
+  height: 4.5px;
+  overflow: hidden;
+}
+.RIGHTwholesmalltitle {
+  align-items: center;
+  justify-content: right;
+  display: flex;
+  text-align: right;
+  text-transform: uppercase;
+}
+.RIGHTwholesmalltitle h1 {
+  font-size: 3rem;
+  color: whitesmoke;
+  margin-left: 2%;
+  letter-spacing: 1pt;
+}
+.RIGHTwholesmalltitle span {
+  color: #eea300;
+}
