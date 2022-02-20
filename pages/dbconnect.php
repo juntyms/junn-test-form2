@@ -2,7 +2,7 @@
 $servername = "localhost";
 $username = "root";
 $password = "";
-$dbname = "junn-db-test";
+$dbname = "hbc_db";
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
